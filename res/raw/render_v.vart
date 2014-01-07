@@ -1,0 +1,12 @@
+uniform mat4 u_MMatrix;
+uniform mat4 u_TexMatrix;
+uniform vec4 u_Color;
+attribute vec4 a_Position;
+attribute vec2 a_UV;
+varying vec2 v_TexCoord;
+
+void main(){
+  gl_Position = u_MMatrix*a_Position;
+  v_TexCoord = vec2(u_TexMatrix*vec4(a_UV.s,a_UV.t,0.0,1.0));
+}
+
