@@ -1,4 +1,4 @@
-package com.example.glvideoplayer;
+package net.binzume.android.glvideoplayer;
 
 import android.content.Context;
 import android.opengl.GLSurfaceView;

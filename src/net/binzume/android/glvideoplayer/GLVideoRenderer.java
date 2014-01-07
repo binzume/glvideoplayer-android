@@ -1,4 +1,4 @@
-package com.example.glvideoplayer;
+package net.binzume.android.glvideoplayer;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
@@ -9,6 +9,8 @@ import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.egl.EGLContext;
 import javax.microedition.khronos.egl.EGLDisplay;
 import javax.microedition.khronos.opengles.GL10;
+
+import net.binzume.android.glvideoplayer.R;
 
 import android.content.Context;
 import android.hardware.Camera;

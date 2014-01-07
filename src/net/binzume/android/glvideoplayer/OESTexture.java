@@ -1,4 +1,4 @@
-package com.example.glvideoplayer;
+package net.binzume.android.glvideoplayer;
 
 import android.graphics.SurfaceTexture;
 import android.opengl.GLES20;

@@ -1,4 +1,4 @@
-package com.example.glvideoplayer;
+package net.binzume.android.glvideoplayer;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;

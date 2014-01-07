@@ -6,7 +6,7 @@
     android:layout_margin="0px"
     tools:context=".MainActivity" >
 
-    <com.example.glvideoplayer.VideoSurfaceView
+    <net.binzume.android.glvideoplayer.VideoSurfaceView
         android:id="@+id/glview"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
